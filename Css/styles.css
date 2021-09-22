@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  background-color: #222831;
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+
+.top-container {
+  width: 100%;
+  position: relative;
+  padding-top: 50px;
+  background-color: #222831;
+}
+
+.middle-container {
+  background-color: #222831;
+}
+
+.bottom-container {
+  background-color: #FFD369;
+  text-align: center;
+  text-color:#222831;
+  padding:70px 0 20px;
+}
+
+#text {
+  color: #EEEEEE;
+  margin: 0;
+}
+
+.center-text{
+  text-align: center;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #FFD369;
+  border-width: 3px;
+  width: 5%;
+  color: inherit;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  margin: 50 auto 0 auto;
+  padding: 20px;
+  font-family: 'Sacramento', cursive;
+  font-size: 4.375rem;
+  text-align: center;
+  color: #FFD369;
+}
+
+h2 {
+  color: #E2703A;
+  font-size: 1.875rem;
+  text-align: center;
+}
+
+#h2-yellow {
+  color: #FFD369;
+  margin-top: 0;
+}
+
+h3, th, #orange-text {
+  color: #E2703A;
+}
+
+.footer-link{
+  color:#222831;
+  font-style: bold;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 25px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 325px;
+  top: 175px;
+}
+
+.Images {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.side-images {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.side2-images {
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+}
+
+.profile {
+  width: 30%;
+  margin: auto;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.skills {
+  width: 30%;
+  margin: auto;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.Work-Experience {
+  width: 30%;
+  margin: auto;
+  text-align: left;
+  line-height: 1.5;
+}
+
+#margin {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #FFD369;
+  border: none;
+  color: #222831;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 40px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+a{
+  color: #222831;
+  margin:10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #E2703A;
+}
